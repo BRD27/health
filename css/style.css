@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    min-width: 1920px;
+}
+.container {
+    width: 1630px;
+    margin: 0 auto;
+}
+
+header {
+    background: url("../img/background.jpg") no-repeat top fixed;
+    /* background-size: cover;
+    width: 100%;
+    /* height: 100vh; */
+    /* background-size: cover; */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headline {
+   width: 780px; 
+   margin-top: 147px;
+}
+h1 {
+    font-size: 71px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.money {
+    font-size: 30px;
+    font-weight:400;
+    margin: 0;
+}
+
+.btn {
+    margin-top: 138px;
+    color: #fff;
+    display: inline-block;
+    background: #3CD131;
+    box-shadow: 1px 8px 9px rgba(0, 0, 0, 0.51);
+    text-decoration: none;
+    padding: 34px 54px;
+    font-weight: 600;
+    font-size: 21px;
+
+}
+.menu {
+    border-left: 5px solid #A3EBA0;
+    width: 214px;
+    font-weight: 400;
+    font-size: 21px;
+    padding-left: 13px;
+    margin-top: 115px;
+    display: inline-block;
+    margin-right: 80px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 64px;
+}
+
+.choose {
+    background-color: #FDFCFC;
+}
+.choosing {
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+}
+
+.category {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin-top: 80px;
+    display: inline-block;
+    padding: 31px 51px;
+    font-size: 23px;
+    /* height: 592px; */
+}
+
+h3 {
+    text-align: center;
+}
+
+.ourwork {
+    background: url("../img/fon.jpg") no-repeat top fixed;
+    /* background-size: cover;
+    width: 100%;
+    height: 100vh; */
+    padding-bottom: 50px;
+}
+
+.ourwork p {
+    font-weight: 400;
+    font-size: 31px;
+}
+
+.line {
+    width: 240px;
+    padding-top: 45px;
+}
+
+.forma {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    background: #fff;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.forma h2 {
+    padding: 50px 225px 30px 225px;
+    font-size: 40px;
+}
+
+.forma p {
+    text-align: center;
+    font-size: 24px;
+}
+
+.forma input {
+    width: 575px;
+    height: 80px;
+    background: #C4C4C4;
+    border-radius: 50px;
+    font-size: 24px;
+    border: none;
+    padding-left: 25px;
+    margin-bottom: 35px;
+}
+
+.forma .btn {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+.fedback {
+    background: #fff;
+}
+
+.nav #p {
+    display: inline-block;
+    text-align: left;
+    padding: 15px 10px 10px 10px;
+    padding-left: 20px;
+    width: 480px;
+    height: 120px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.nav .nav_1 {
+    background: url(../img/ike.png) no-repeat;
+    background-position-y: 35px;
+    padding-left: 130px;
+}
+
+footer {
+    padding: 35px;
+    background: rgb(230, 230, 230);
+    font-size: 30px;
+}
